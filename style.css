@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(120deg,#58d9d7 ,#dddb51);
+    min-height: 100vh;
+}
+.list-group-item{
+    margin: 0rem 20rem;
+}
+header,form{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+form{
+ margin-bottom: 5%; 
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+}
+input {
+    padding: 0.7rem;
+    width: 30%;
+   border: none;
+   border-radius: 20px;
+   outline: none;
+   background-color:#d8e7e4;
+}
+button {
+    padding: 0.6rem;
+    border: none;
+   border-radius: 20px;
+   outline: none;
+   margin-left: 10px;
+   background-color:#d8e7e4;
+}
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+}
+.lists{
+margin: 0.5rem;
+background-color:#d8e7e4;
+color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 10px;
+}
+.list-group{
+    min-width: 35%;
+    list-style: none;
+}
+.lists li {
+    flex: 1;
+}
+.add-list{
+    padding: 0rem 0.5rem;
+}
